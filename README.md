@@ -2,18 +2,17 @@
 
 ### Project Overview
 
-Tired of juggling spreadsheets and endless paperwork to manage school records? The Campus Course & Records Manager (CCRM) is a straightforward, console-based application designed to cut through the clutter and make academic administration simple. Built entirely with Java SE, it's a powerful tool that puts everything an administrator needs right at their fingertips.
+Do you find the whole school records system to be rather chaotic, with endless spreadsheets and paper pushing? The Campus Course & Records Manager is a simplistic console application that can do away with the clutter and keep the workings of academic administration very simple. It is written pure and simple in Java SE and is a tool vast enough to put everything an administrator may ever need within his hands.
 
-At its heart, the CCRM is all about making life easier. It connects to a reliable Oracle database to keep your data safe and organized. Through a clean and simple command-line interface, you can effortlessly handle all the essential day-to-day tasks.
-
+CCRM simply wishes to put its administrator at ease. It establishes the connection with a robust Oracle database instead of leaving the administrator to consider the data and its proper organization. It lets you perform simple daily tasks through a clean, straightforward command line interface without any hindrance.
 -----
 
 ### What It Does
 
-  - **Effortless Student Management**: Add new students, pull up entire class lists, or update a student's academic status in just a few keystrokes.
-  - **Simple Course & Enrollment Control**: Create new courses, assign instructors, and enroll or unenroll students with ease. The system is smart, too—it automatically enforces rules like credit limits to prevent scheduling conflicts.
-  - **Instant Grading & Transcripts**: Log student grades and generate official academic transcripts whenever you need them.
-  - **Flexible Data Handling**: Need to import a list of new students? Just use a CSV file. Want to create a report? Export any data you need. The CCRM also lets you create time-stamped backups of all your data for total peace of mind.
+  - **Effortless Student Management**: One can easily bring in new students and present class lists in their entirety, or update a student's academic status-May simply typing some of the key; and another: proves a system, compared to another by simply typing in a few requests..
+  - **Simple Course & Enrollment Control**: Easily add or remove students, appoint teachers, and create new courses.  The system is also intelligent; in order to avoid scheduling conflicts, it automatically enforces regulations like credit limits.
+  - **Instant Grading & Transcripts**:When necessary, create certified academic transcripts and keep track of student grades.
+  - **Flexible Data Handling**: Do you need a list of new pupils imported?  Use a CSV file alone.  Do you want to make a report?  Export all necessary data.  The CCRM also lets you create time-stamped backups of all your data for total peace of mind.
 
 -----
 
@@ -21,12 +20,12 @@ At its heart, the CCRM is all about making life easier. It connects to a reliabl
 
 ### What You'll Need
 
-Before we start, make sure you have these two things installed on your system:
+Before start, remember you have these two things installed on your system:
 
   - **Java Development Kit (JDK)**: Version 11 or higher.
   - **Oracle Database**: A running instance of Oracle DB.
 
-### Step 1: Get the Code
+### Step 1: Get the Code for Project
 
 Open your terminal and clone the repository:
 
@@ -44,7 +43,7 @@ javac -d bin -cp "lib/ojdbc17.jar" src/edu/ccrm/cli/*.java src/edu/ccrm/config/*
 
 > This command compiles all `.java` files from the `src` directory, places the output `.class` files into the `bin` directory, and includes the Oracle JDBC driver in the classpath.
 
-### Step 3: Set Up the Database
+### Step 3: Set Up the Database for project
 
 The application needs a dedicated user in your Oracle database.
 
@@ -65,11 +64,11 @@ java -cp "bin;lib/ojdbc17.jar" edu.ccrm.cli.Main
 
 -----
 
-## IDE Setup (Optional)
+## IDE Setup
 
 While the app is designed for the command line, you can set it up in an IDE for easier development.
 
-### Eclipse IDE
+### Eclipse IDE Setup
 
 1.  **Import the Project**:
       - Go to `File > Import > General > Exists Projects into Workspace`.
@@ -110,13 +109,13 @@ This project demonstrates a strong understanding of core Java principles and des
 
 ### Enabling Assertions
 
-Assertions are sanity checks in your code that are disabled by default. To enable them for debugging, use the `-ea` flag.
+Sanity checks in your code that are by default turned off are called assertions.  Use the `-ea` flag to make them debug-friendly.
 
 ```bash
 java -ea -cp "bin;lib/ojdbc17.jar" edu.ccrm.cli.Main
 ```
 
-If an assertion fails, the program will stop with an `AssertionError`, pointing you directly to the logical problem.
+An `AssertionError` will be displayed when an assertion fails, alerting you to the logical issue.
 
 -----
 
@@ -124,15 +123,15 @@ If an assertion fails, the program will stop with an `AssertionError`, pointing 
 
 ### Java Editions: ME vs. SE vs. EE
 
-  - **Java ME (Micro Edition)**: A lightweight version for small, resource-constrained devices like early mobile phones or smart gadgets.
-  - **Java SE (Standard Edition)**: The core, classic version of Java used for desktop and server applications. This project is built with Java SE.
-  - **Java EE (Enterprise Edition)**: A superset of Java SE with additional tools for large-scale, web-based enterprise applications.
+  - **Java ME (Micro Edition)**: a low-power variant for tiny, resource-constrained gadgets, such as early cell phones or smart devices.
+  - **Java SE (Standard Edition)**: Java's basic, traditional version, which is utilized for server and desktop applications.  Java SE was used to build this project.
+  - **Java EE (Enterprise Edition)**: More tools for large-scale, web-based enterprise applications that are a superset of Java SE.
 
 ### JDK vs. JRE vs. JVM
 
-  - **JVM (Java Virtual Machine)**: The "engine" that runs compiled Java bytecode. It's platform-dependent and makes the "write once, run anywhere" concept possible.
-  - **JRE (Java Runtime Environment)**: Contains the JVM plus the necessary libraries to *run* Java applications. Users need the JRE.
-  - **JDK (Java Development Kit)**: Contains the JRE plus tools for *developing* Java applications, like the compiler (`javac`) and debugger. Developers need the JDK.
+  - **JVM (Java Virtual Machine)**: This "engine" executes Java bytecode that has been compiled.  It enables the "write once, run anywhere" idea and is platform-dependent.
+  - **JRE (Java Runtime Environment)**: includes the JVM along with the libraries required to *run* Java programs.  The JRE is necessary for users.
+  - **JDK (Java Development Kit)**: includes the JRE together with tools for *developing* Java applications, such as the debugger and compiler (`javac`).  JDKs are essential for developers.
 
 ### Key Moments in Java's Evolution
 
@@ -146,7 +145,8 @@ If an assertion fails, the program will stop with an `AssertionError`, pointing 
 -----
 
 ## Acknowledgements
+This project was made for the Vityarthi portal's "Programming in Java" course.
 
-  - This project was created as part of the "Programming in Java" course on the Vityarthi portal.
+   All of the code was created by Ayush Raj Verma and is original.
+  
 
-  - All code is original and written by Ayush Raj Verma.

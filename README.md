@@ -3,8 +3,8 @@
 ### Project Overview
 
 Do you find the whole school records system to be rather chaotic, with endless spreadsheets and paper pushing? The Campus Course & Records Manager is a simplistic console application that can do away with the clutter and keep the workings of academic administration very simple. It is written pure and simple in Java SE and is a tool vast enough to put everything an administrator may ever need within his hands.
+CCRM just wants its administrator to feel comfortable.  Instead than letting the administrator think about the data and how to properly organize it, it connects to a reliable Oracle database.  Through a clear, uncomplicated command line interface, it enables you to complete basic everyday chores without any difficulties.
 
-CCRM simply wishes to put its administrator at ease. It establishes the connection with a robust Oracle database instead of leaving the administrator to consider the data and its proper organization. It lets you perform simple daily tasks through a clean, straightforward command line interface without any hindrance.
 -----
 
 ### What It Does
@@ -93,15 +93,15 @@ This project demonstrates a strong understanding of core Java principles and des
 
 | Concept | Demonstration in the Project |
 | :--- | :--- |
-| **Encapsulation** | **`Student.java`, `Course.java`**: Fields are kept `private` and accessed via public getters/setters. |
-| **Inheritance & Abstraction** | **`Person.java`**: An `abstract` base class provides a blueprint for `Student` and `Instructor`. |
-| **Polymorphism** | **`TranscriptService.java`**: Works with general `Person` objects, handling subclasses polymorphically. |
-| **Interfaces** | **`Searchable.java`**: A functional `interface` defines a contract for search capabilities. |
-| **NIO.2 and Streams** | **`ImportExportService.java`**: Uses modern Java I/O for efficient file operations. |
-| **Lambda Expressions** | **`CourseService.java`**: Uses lambdas with predicates for clean, concise filtering logic. |
-| **Singleton Pattern** | **`AppConfig.java`**: Ensures only one instance of the application's configuration exists. |
-| **Builder Pattern** | **`Course.java`**: Contains a nested Builder for safe, step-by-step object construction. |
-| **Custom Exceptions** | **`DuplicateEnrollmentException.java`**: Defined to handle specific application errors gracefully. |
+| **Encapsulation** | **`Student.java`, `Course.java`**:Public getters/setters are used to access fields that are kept `private`. |
+| **Inheritance & Abstraction** | **`Person.java`**: `Student` and `Instructor` are modeled after an `abstract` base class.  |
+| **Polymorphism** | **`TranscriptService.java`**: Uses general `Person` objects and handles subclasses in a polymorphic manner.  |
+| **Interfaces** | **`Searchable.java`**: A contract for search capabilities is defined by a functional `interface`.. |
+| **NIO.2 and Streams** | **`ImportExportService.java`**: makes effective use of contemporary Java I/O for file operations.. |
+| **Lambda Expressions** | **`CourseService.java`**: uses predicates and lambdas to provide clear, simple filtering logic.. |
+| **Singleton Pattern** | **`AppConfig.java`**: guarantees that there is just a single instance of the application's configuration.. |
+| **Builder Pattern** | **`Course.java`**: includes a nested Builder for building objects in a safe, methodical manner. |
+| **Custom Exceptions** | **`DuplicateEnrollmentException.java`**: designed to gracefully handle particular application problems. |
 
 -----
 
@@ -137,10 +137,10 @@ An `AssertionError` will be displayed when an assertion fails, alerting you to t
 
   - **1995**: Sun Microsystems announces Java.
   - **1996**: **JDK 1.0** is released.
-  - **2004**: **Java 5.0** is released, adding major features like Generics, Annotations, and Autoboxing.
-  - **2014**: **Java 8** revolutionizes the language with Lambda Expressions and the Stream API.
+  - **2004**: **Java 5.0** is made available, providing significant features including autoboxing, annotations, and generics.
+  - **2014**: **Java 8** uses the Stream API and Lambda Expressions to transform the language.
   - **2018**: Oracle begins a faster, 6-month release cadence.
-  - **2021**: **Java 17** is released as the latest Long-Term Support (LTS) version.
+  - **2021**: **Java 17** is made available as the most recent edition of Long-Term Support (LTS).
 
 -----
 
@@ -149,4 +149,5 @@ This project was made for the Vityarthi portal's "Programming in Java" course.
 
    All of the code was created by Ayush Raj Verma and is original.
   
+
 

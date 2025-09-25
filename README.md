@@ -134,13 +134,12 @@ An `AssertionError` will be displayed when an assertion fails, alerting you to t
 
 ### Key Moments in Java's Evolution
 
-  - **1995**: Sun Microsystems announces Java.
+  - **1995**: Java is announced by Sun Microsystems.
   - **1996**: **JDK 1.0** is made available.
-  - **2004**: **Java 5.0** is made available, providing significant features including autoboxing, annotations, and generics.
-  - **2014**: **Java 8** transforms the language using Lambda Expressions and the Stream API.
-  - **2018**: Oracle begins a faster, 6-month release cadence.
-  - **2021**: **Java 17** is made available as the most recent edition of Long-Term Support (LTS).
-
+  - **2004**: **Java 5.0** is made available, offering important features like generics, annotations, and autoboxing.
+  - **2014**: **Java 8** uses the Stream API and Lambda Expressions to change the language.
+   - **2018**: Oracle has increased the frequency of its releases to once every six months.
+  - **2021**: **Java 17** is offered as the latest Long-Term Support (LTS) edition.
 -----
 
 ## Acknowledgements
@@ -148,6 +147,7 @@ This project was made for the Vityarthi portal's "Programming in Java" course.
 
    All of the code was created by Ayush Raj Verma and is original.
   
+
 
 
 

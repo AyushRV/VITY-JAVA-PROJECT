@@ -70,26 +70,25 @@ While the app is designed for the command line, you can set it up in an IDE for 
 
 ### Eclipse IDE Setup
 
-1.  **Import the Project**:
-      - Go to `File > Import > General > Exists Projects into Workspace`.
-      - Browse to and select the project's root directory.
-2.  **Link the Database Driver**:
-      - Right-click the project \> `Build Path > Configure the Build Path`.
-      - Go to the `Libraries` tab, select `Classpath`, click `Add JARs...`, and add the `lib/ojdbc17.jar` file.
+To import the project, first select `File > Import > General > Exists Projects into Workspace`.
+       Go to the root directory of the project and choose it.
+ 2. **Connect the Database Driver**:
+       To configure the build path, right-click on the project and select `Build Path > Configure the Build Path`.
+       Navigate to the `Libraries` tab, choose `Classpath`, click `Add JARs...`, and then add the `lib/ojdbc17.jar` file.
 
 ### Visual Studio Code
 
-1.  **Install Java Tools**: Ensure the **Extension Pack for Java** from Microsoft is installed.
-2.  **Open the Project**: Go to `File > Open Folder...` and select the project's root directory.
-3.  **Link the Database Driver**:
-      - In the **JAVA PROJECTS** explorer view, find **Referenced Libraries**.
-      - Click the `+`(plus) icon and add the `lib/ojdbc17.jar` file.
+1. **Install Java Tools**: Make sure you have the Microsoft **Extension Pack for Java** installed.
+ 2. **Start the Project**:  Choose the root directory for the project by going to `File > Open Folder...`.
+ 3. **Connect the Database Driver**:
+       - Locate **Referenced Libraries** in the **JAVA PROJECTS** explorer view.
+       - Add the `lib/ojdbc17.jar` file by clicking the `+` (plus) icon.
 
 -----
 
 ## Technical Showcase: Syllabus Topics in Action
 
-This project demonstrates a strong understanding of core Java principles and design patterns.
+This project shows a thorough comprehension of fundamental Java design patterns and concepts.
 
 | Concept | Demonstration in the Project |
 | :--- | :--- |
@@ -149,6 +148,7 @@ This project was made for the Vityarthi portal's "Programming in Java" course.
 
    All of the code was created by Ayush Raj Verma and is original.
   
+
 
 
 

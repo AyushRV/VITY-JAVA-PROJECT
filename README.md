@@ -47,16 +47,16 @@ javac -d bin -cp "lib/ojdbc17.jar" src/edu/ccrm/cli/*.java src/edu/ccrm/config/*
 
 The application needs a dedicated user in your Oracle database.
 
-1.  **Create the User**: Connect to your database with an admin account (e.g., `SYSTEM`) and run the following SQL commands:
+1.  **Create the User**: Use an admin account (such as `SYSTEM`) to access your database, then execute the following SQL commands:
     ```sql
     CREATE USER ccrm_user IDENTIFIED BY ccrm_pass;
     GRANT CONNECT, RESOURCE, DBA TO ccrm_user;
     ```
-2.  **Initialize the Tables**: You don't need to create tables manually\! The application will automatically create the required schema the first time it runs.
+2.  **Initialize the Tables**: You don't have to make tables by hand!  The first time the program runs, the necessary schema will be created automatically.
 
 ### Step 4: Run the Application\!
 
-With everything compiled and the database ready, run the application using this command from the project's root directory:
+Use this command to launch the application from the project's root directory once everything has been compiled and the database is ready:
 
 ```bash
 java -cp "bin;lib/ojdbc17.jar" edu.ccrm.cli.Main
@@ -123,9 +123,9 @@ An `AssertionError` will be displayed when an assertion fails, alerting you to t
 
 ### Java Editions: ME vs. SE vs. EE
 
-  - **Java ME (Micro Edition)**: a low-power variant for tiny, resource-constrained gadgets, such as early cell phones or smart devices.
-  - **Java SE (Standard Edition)**: Java's basic, traditional version, which is utilized for server and desktop applications.  Java SE was used to build this project.
-  - **Java EE (Enterprise Edition)**: More tools for large-scale, web-based enterprise applications that are a superset of Java SE.
+  - **Java ME (Micro Edition)**: a low-power version for small devices with limited resources, like early cell phones or smart devices.
+  - **Java SE (Standard Edition)**:Java's conventional, basic version, used for desktop and server applications.  Java SE was used to build this project.
+  - **Java EE (Enterprise Edition)**: Additional technologies that are a superset of Java SE for large-scale, web-based enterprise applications.
 
 ### JDK vs. JRE vs. JVM
 
@@ -136,9 +136,9 @@ An `AssertionError` will be displayed when an assertion fails, alerting you to t
 ### Key Moments in Java's Evolution
 
   - **1995**: Sun Microsystems announces Java.
-  - **1996**: **JDK 1.0** is released.
+  - **1996**: **JDK 1.0** is made available.
   - **2004**: **Java 5.0** is made available, providing significant features including autoboxing, annotations, and generics.
-  - **2014**: **Java 8** uses the Stream API and Lambda Expressions to transform the language.
+  - **2014**: **Java 8** transforms the language using Lambda Expressions and the Stream API.
   - **2018**: Oracle begins a faster, 6-month release cadence.
   - **2021**: **Java 17** is made available as the most recent edition of Long-Term Support (LTS).
 
@@ -149,5 +149,6 @@ This project was made for the Vityarthi portal's "Programming in Java" course.
 
    All of the code was created by Ayush Raj Verma and is original.
   
+
 
 

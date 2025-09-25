@@ -72,10 +72,10 @@ While the app is designed for the command line, you can set it up in an IDE for 
 ### Eclipse IDE
 
 1.  **Import the Project**:
-      - Go to `File > Import > General > Existing Projects into Workspace`.
+      - Go to `File > Import > General > Exists Projects into Workspace`.
       - Browse to and select the project's root directory.
 2.  **Link the Database Driver**:
-      - Right-click the project \> `Build Path > Configure Build Path`.
+      - Right-click the project \> `Build Path > Configure the Build Path`.
       - Go to the `Libraries` tab, select `Classpath`, click `Add JARs...`, and add the `lib/ojdbc17.jar` file.
 
 ### Visual Studio Code
@@ -84,7 +84,7 @@ While the app is designed for the command line, you can set it up in an IDE for 
 2.  **Open the Project**: Go to `File > Open Folder...` and select the project's root directory.
 3.  **Link the Database Driver**:
       - In the **JAVA PROJECTS** explorer view, find **Referenced Libraries**.
-      - Click the `+` icon and add the `lib/ojdbc17.jar` file.
+      - Click the `+`(plus) icon and add the `lib/ojdbc17.jar` file.
 
 -----
 
@@ -148,4 +148,5 @@ If an assertion fails, the program will stop with an `AssertionError`, pointing 
 ## Acknowledgements
 
   - This project was created as part of the "Programming in Java" course on the Vityarthi portal.
+
   - All code is original and written by Ayush Raj Verma.
